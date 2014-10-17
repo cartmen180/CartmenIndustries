@@ -1,0 +1,16 @@
+data:extend({
+  { type = "item", name = "mineral-separator",
+	icon = "__base__/graphics/icons/assembling-machine-1.png",
+	flags = { "goes-to-quickbar" },	
+	order = "m-a[mineral-separator-1]",
+	stack_size = 50,
+	place_result = "mineral-separator",
+  },
+  { type = "item", name = "mineral-separator-2",
+	icon = "__base__/graphics/icons/assembling-machine-2.png",
+	flags = { "goes-to-quickbar" },	
+	order = "m-a[mineral-separator-2]",
+	stack_size = 50,
+	place_result = "mineral-separator-2",
+  },
+})
