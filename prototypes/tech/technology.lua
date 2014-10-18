@@ -1,7 +1,7 @@
 data:extend({
 
-  { type = "technology", name = "basic-metals",
-	icon = "__CartmenIndustries__/graphics/icons/ores/basic-metal.png",
+  { type = "technology", name = "basic-mining",
+	icon = "__base__/graphics/icons/burner-mining-drill.png",
 	effects = 
 	{
 	  --{type="unlock-recipe",recipe="iron-ore-processing"},
@@ -13,41 +13,12 @@ data:extend({
 	unit =
 	{
 	  count = 10,
-	  ingredients = {{"stone",2}},
+	  ingredients = {{"stone",1}},
 	  time = 5
 	}
   },
-  { type = "technology", name = "quartz",
-    prerequisites = {"basic-metals"},
-	icon = "__CartmenIndustries__/graphics/icons/ores/quartz.png",
-	effects = 
-	{
-	  --{type="unlock-recipe",recipe="quartz-processing"}
-	},
-	unit =
-	{
-	  count = 10,
-	  ingredients = {{"stone",5}},
-	  time = 30
-	}
-  },
-  { type = "technology", name = "tin-lead",
-	prerequisites = {"basic-metals"},
-	icon = "__CartmenIndustries__/graphics/icons/ores/tin-lead.png",
-	effects =
-	{
-	  --{type="unlock-recipe",recipe="tin-ore-processing"},
-	  --{type="unlock-recipe",recipe="lead-ore-processing"}
-	},
-	unit =
-	{
-	  count = 10,
-	  ingredients = {{"stone", 1},{"iron-ore",1},{"copper-ore",1}},
-	  time = 10
-	}
-  },
   { type = "technology", name = "precious-metals",
-	prerequisites = {"tin-lead"},
+	prerequisites = {"basic-mining"},
 	icon = "__CartmenIndustries__/graphics/icons/ores/precious-metal.png",
 	effects =
 	{
@@ -63,24 +34,8 @@ data:extend({
 	  time = 15
 	}
   },
-  { type = "technology", name = "nickel-zinc",
-	prerequisites = {"tin-lead"},
-	icon = "__CartmenIndustries__/graphics/icons/ores/nickel-zinc.png",
-	effects =
-	{
-	  --{type="unlock-recipe",recipe="nickel-ore-processing"},
-	  --{type="unlock-recipe",recipe="zinc-ore-processing"}
-	},
-	unit =
-	{
-	  count = 10,
-	  ingredients = {{"stone", 1},{"iron-ore",1},{"copper-ore",1},{"lead-ore",1},{"tin-ore",1}},
-	  time = 15
-	}
-  },
-    
   { type = "technology", name = "basic-metal-casting",
-	prerequisites = {"basic-metals"},
+	prerequisites = {"basic-mining"},
 	icon = "__CartmenIndustries__/graphics/icons/fluids/liquid-iron.png",
 	effects = 
 	{
@@ -96,7 +51,7 @@ data:extend({
 	}
   },
   { type = "technology", name = "tin-lead-smelting",
-	prerequisites = {"tin-lead"},
+	prerequisites = {"basic-mining"},
 	icon = "__CartmenIndustries__/graphics/icons/tin-lead-plate.png",
 	effects = 
 	{
@@ -113,7 +68,7 @@ data:extend({
   
   { type = "technology", name = "ore-crushing",
 	prerequisites = {"basic-metal-casting"},
-	icon = "__CartmenIndustries__/graphics/icons/ores/crushed-copper-ore.png",
+	icon = "__CartmenIndustries__/graphics/icons/crusher-icon.png",
 	effects = 
 	{
 	  {type="unlock-recipe",recipe="mill"},
@@ -129,7 +84,7 @@ data:extend({
   },  
   { type = "technology", name = "ore-crushing-2",
 	prerequisites = {"ore-crushing","tin-lead-smelting"},
-	icon = "__CartmenIndustries__/graphics/icons/ores/crushed-lead-ore.png",
+	icon = "__CartmenIndustries__/graphics/icons/crusher-icon.png",
 	effects = 
 	{
 	  {type="unlock-recipe",recipe="tin-crushing"},
@@ -307,7 +262,7 @@ data:extend({
   },
   
   { type = "technology", name = "steel-casting",
-	prerequisites = {"steel-processing","iron-casting-2","nickel-zinc","ci-electronics-2"},
+	prerequisites = {"steel-processing","iron-casting-2","ci-electronics-2"},
 	icon = "__base__/graphics/icons/steel-plate.png",
 	effects = 
 	{
@@ -364,7 +319,7 @@ data:extend({
   },
   { type = "technology", name = "ci-electronics-2",
 	icon = "__base__/graphics/icons/electronic-circuit.png",
-	prerequisites = {"ci-electronics","quartz"},
+	prerequisites = {"ci-electronics"},
 	effects = 
 	{
 	  {type="unlock-recipe",recipe="silicon-processing"},
@@ -400,7 +355,7 @@ data:extend({
   },
 
   { type = "technology", name = "zinc-refining",
-	prerequisites = {"nickel-zinc","copper-flotation"},
+	prerequisites = {"copper-flotation"},
 	icon = "__CartmenIndustries__/graphics/icons/zinc-plate.png",
 	effects = 
 	{
@@ -417,7 +372,7 @@ data:extend({
 	}
   },
   { type = "technology", name = "nickel-refining",
-	prerequisites = {"nickel-zinc","copper-flotation"},
+	prerequisites = {"copper-flotation"},
 	icon = "__CartmenIndustries__/graphics/icons/ores/nickel-powder.png",
 	effects = 
 	{
