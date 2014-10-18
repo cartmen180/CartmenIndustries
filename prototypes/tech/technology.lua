@@ -311,6 +311,7 @@ data:extend({
 	icon = "__base__/graphics/icons/steel-plate.png",
 	effects = 
 	{
+	  {type="unlock-recipe",recipe="coke-production"},
 	  {type="unlock-recipe",recipe="steel-processing-2"},
 	  {type="unlock-recipe",recipe="steel-casting"},
 	  {type="unlock-recipe",recipe="cast-steel-gear-wheel"},
@@ -407,6 +408,22 @@ data:extend({
 	  {type="unlock-recipe",recipe="zinc-flotation"},
 	  {type="unlock-recipe",recipe="zinc-roasting"},
 	  {type="unlock-recipe",recipe="zinc-electro-refining"}
+	},
+	unit =
+	{
+	  count = 30,
+	  ingredients = {{"science-pack-1",3},{"science-pack-2",1}},
+	  time = 40
+	}
+  },
+  { type = "technology", name = "nickel-refining",
+	prerequisites = {"nickel-zinc","copper-flotation"},
+	icon = "__CartmenIndustries__/graphics/icons/ores/nickel-powder.png",
+	effects = 
+	{
+	  {type="unlock-recipe",recipe="nickel-processing"},
+	  {type="unlock-recipe",recipe="nickel-processing-2"},
+	  {type="unlock-recipe",recipe="nickel-processing-3"}
 	},
 	unit =
 	{
