@@ -6,5 +6,5 @@
   "contact": "cartmen180@gmail.com",
   "homepage": "",
   "description": "Adds new ores and changes recipes. Create a whole new production line for your raw materials and intermediates.",
-  "dependencies": ["base >= 0.10.0","? bobplates >= 0.6.1","? DyTech >= 2.0.0"]
+  "dependencies": ["base >= 0.10.0","? bobplates >= 0.6.1","? DyTech >= 2.0.0","BaseMod => 0.0.1"]
 }
