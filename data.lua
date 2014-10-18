@@ -89,6 +89,8 @@ else
 	require("prototypes.item.separator")
 	require("prototypes.recipe.separator")
 	require("prototypes.entity.separator")
+	table.insert(data.raw["technology"]["automation-2"].effects,{type = "unlock-recipe",recipe = "mineral-separator-2"})
+	table.insert(data.raw["technology"]["ci-chemistry"].effects,{type="unlock-recipe",recipe="salt-extracting"})
   end
   
   if EnableNewWalls == true then

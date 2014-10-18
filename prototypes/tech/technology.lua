@@ -452,7 +452,7 @@ data:extend({
 	icon = "__CartmenIndustries__/graphics/icons/fluids/bisphenol.png",
 	effects = 
 	{
-	  {type="unlock-recipe",recipe="salt-electrolysis"},
+	  {type="unlock-recipe",recipe="salt-electrolysis"}
 	},
 	unit =
 	{

@@ -25,7 +25,7 @@ data:extend({
 	icon = "__CartmenIndustries__/graphics/icons/reinforced-concrete-wall.png",
 	enabled = false,
 	energy_required = 1.5,
-	ingredients = {{"crushed-limestone",5},{"ci-cement",3},{"iron-stick",10}},
+	ingredients = {{"crushed-limestone",5},{"ci-cement",3},{"steel-plate",2}},
 	results = {{type="item",name="reinforced-concrete-wall",amount=1}},
 	subgroup = "defensive-structure",
 	order = "a[wall]-c[wall]",
