@@ -101,7 +101,7 @@ data:extend({
   {
     type = "recipe",
 	name = "test-tungsten",
-	icon = "__BaseMod__/graphics/icons/tungsten-powder.png",
+	icon = "__CartmenIndustries__/graphics/icons/tungsten-powder.png",
 	ingredients = {
 	{type="item",name="tungsten-powder",amount=1}
 	},
