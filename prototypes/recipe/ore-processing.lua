@@ -365,7 +365,7 @@ data:extend({
 	order = "a-d[nickel-ore]",
   },]]
   { type = "recipe", name = "nickel-processing",
-	icon = "__CartmenIndustries__/graphics/icons/fluids/impure-nickel-powder.png",
+	icon = "__CartmenIndustries__/graphics/icons/ores/impure-nickel.png",
 	category = "chemistry",
 	enabled = false,
 	energy_required = 2.0,
