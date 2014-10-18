@@ -97,4 +97,16 @@ data:extend({
 	subgroup = "ci-machine-parts-am",
 	order = "d",
   },
+  
+  {
+    type = "recipe",
+	name = "test-tungsten",
+	icon = "__BaseMod__/graphics/icons/tungsten-powder.png",
+	ingredients = {
+	{type="item",name="tungsten-powder",amount=1}
+	},
+	results = {
+	{type="item",name="tungsten-powder",amount=1}
+	},
+  },
 })

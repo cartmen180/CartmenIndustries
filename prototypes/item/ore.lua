@@ -129,14 +129,7 @@ data:extend({
 	order = "a-o[titanium]",
 	stack_size = 200,
   },
-
-  {type = "item", name = "tungsten-ore",
-	icon = "__CartmenIndustries__/graphics/icons/ores/tungsten-ore.png",
-	flags = { "goes-to-main-inventory" },
-	order = "a-o[tungsten]",
-	stack_size = 200,
-  },
-  
+ 
   {type = "item", name = "limestone",
 	icon = "__CartmenIndustries__/graphics/icons/ores/limestone.png",
 	flags = { "goes-to-main-inventory" },
