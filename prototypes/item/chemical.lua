@@ -1,10 +1,4 @@
-data:extend({
-  {type = "item", name = "sodium-hydroxide",
-	icon = "__CartmenIndustries__/graphics/icons/sodium-hydroxide.png",
-	flags = { "goes-to-main-inventory" },
-	stack_size = 200,
-  },
-  
+data:extend({  
   {type = "item", name = "magnesium-chloride",
 	icon = "__CartmenIndustries__/graphics/icons/magnesium-chloride.png",
 	flags = { "goes-to-main-inventory" },

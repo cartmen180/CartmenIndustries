@@ -127,14 +127,7 @@ data:extend({
 	order = "a-o[quartz]",
 	stack_size = 200,
   },
-  
-  {type = "item", name = "salt",
-	icon = "__CartmenIndustries__/graphics/icons/ores/salt.png",
-	flags = { "goes-to-main-inventory" },
-	order = "a-o[salt]",
-	stack_size = 200,
-  },
-  
+
   {type = "item", name = "titanium-ore",
 	icon = "__CartmenIndustries__/graphics/icons/ores/titanium-ore.png",
 	flags = { "goes-to-main-inventory" },
