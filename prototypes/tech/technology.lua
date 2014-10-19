@@ -419,28 +419,13 @@ data:extend({
 	}
   },
   
-  { type = "technology", name = "ci-chemistry",
-	prerequisites = {"oil-processing"},
-	icon = "__CartmenIndustries__/graphics/icons/fluids/bisphenol.png",
-	effects = 
-	{
-	  {type="unlock-recipe",recipe="salt-electrolysis"}
-	},
-	unit =
-	{
-	  count = 10,
-	  ingredients = {{"science-pack-1",1}},
-	  time = 15
-	}
-  },
   { type = "technology", name = "ci-chemistry-2",
 	prerequisites = {"ci-chemistry"},
 	icon = "__CartmenIndustries__/graphics/icons/fluids/bisphenol.png",
 	effects = 
 	{
 	  {type="unlock-recipe",recipe="hypochlorous-acid-processing"},
-	  {type="unlock-recipe",recipe="allyl-chloride-processing"},
-	  {type="unlock-recipe",recipe="hydrochloric-acid"}
+	  {type="unlock-recipe",recipe="allyl-chloride-processing"}
 	},
 	unit =
 	{
@@ -465,7 +450,7 @@ data:extend({
 	}
   },
   { type = "technology", name = "ci-chemistry-4",
-	prerequisites = {"ci-chemistry-3","advanced-oil-processing"},
+	prerequisites = {"ci-chemistry-3","advanced-oil-processing","gas-processing"},
 	icon = "__CartmenIndustries__/graphics/icons/fluids/bisphenol.png",
 	effects = 
 	{
