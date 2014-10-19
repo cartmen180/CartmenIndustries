@@ -1,5 +1,5 @@
 data:extend({
-  { type = "resource", name = "copper-ore",
+  { type = "resource", name = "ci-copper-ore",
     icon = "__base__/graphics/icons/stone.png",
     flags = {"placeable-neutral"},
     order="a-b-a",
@@ -14,7 +14,7 @@ data:extend({
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
-      control = "unknown-mineral",
+      control = "ci-copper",
       sharpness = 1,
       richness_multiplier = 13000,
       richness_base = 350,
@@ -98,7 +98,7 @@ data:extend({
     map_color = {r=0.478, g=0.450, b=0.317}
   },
 
-  { type = "resource", name = "iron-ore",
+  { type = "resource", name = "ci-iron-ore",
     icon = "__base__/graphics/icons/stone.png",
     flags = {"placeable-neutral"},
     order="a-b-b",
@@ -113,7 +113,7 @@ data:extend({
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
-      control = "unknown-mineral",
+      control = "ci-iron",
       sharpness = 1,
       richness_multiplier = 15000,
       richness_base = 350,
@@ -199,7 +199,7 @@ data:extend({
     map_color = {r=0.478, g=0.450, b=0.317}
   },
 
-  { type = "resource", name = "coal",
+  { type = "resource", name = "ci-coal",
     icon = "__base__/graphics/icons/stone.png",
     flags = {"placeable-neutral"},
     order="a-b-c",
@@ -214,7 +214,7 @@ data:extend({
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
-      control = "unknown-mineral",
+      control = "ci-coal",
       sharpness = 1,
       richness_multiplier = 13000,
       richness_base = 350,
@@ -300,7 +300,7 @@ data:extend({
     map_color = {r=0.478, g=0.450, b=0.317}
   },
 
-  { type = "resource", name = "stone",
+  { type = "resource", name = "ci-stone",
     icon = "__base__/graphics/icons/stone.png",
     flags = {"placeable-neutral"},
     order="a-b-d",
@@ -315,7 +315,7 @@ data:extend({
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
-      control = "unknown-mineral",
+      control = "ci-stone",
       sharpness = 1,
       richness_multiplier = 11000,
       richness_base = 250,
@@ -401,7 +401,7 @@ data:extend({
     map_color = {r=0.478, g=0.450, b=0.317}
   },
   
-  { type = "resource", name = "lead-ore",
+  { type = "resource", name = "ci-lead-ore",
     icon = "__base__/graphics/icons/stone.png",
     flags = {"placeable-neutral"},
     order="a-b-d",
@@ -416,7 +416,7 @@ data:extend({
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
-      control = "unknown-mineral",
+      control = "ci-lead",
       sharpness = 1,
       richness_multiplier = 11000,
       richness_base = 250,
@@ -502,7 +502,7 @@ data:extend({
     map_color = {r=0.478, g=0.450, b=0.317}
   },
   
-  { type = "resource", name = "tin-ore",
+  { type = "resource", name = "ci-tin-ore",
     icon = "__base__/graphics/icons/stone.png",
     flags = {"placeable-neutral"},
     order="a-b-d",
@@ -517,7 +517,7 @@ data:extend({
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
-      control = "unknown-mineral",
+      control = "ci-tin",
       sharpness = 1,
       richness_multiplier = 11000,
       richness_base = 250,
@@ -603,7 +603,7 @@ data:extend({
     map_color = {r=0.478, g=0.450, b=0.317}
   },
   
-  { type = "resource", name = "quartz-ore",
+  { type = "resource", name = "ci-quartz-ore",
     icon = "__base__/graphics/icons/stone.png",
     flags = {"placeable-neutral"},
     order="a-b-a",
@@ -618,7 +618,7 @@ data:extend({
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
-      control = "unknown-mineral",
+      control = "ci-quartz",
       sharpness = 1,
       richness_multiplier = 15000,
       richness_base = 500,
@@ -702,7 +702,7 @@ data:extend({
     map_color = {r=0.478, g=0.450, b=0.317}
   },
   
-  { type = "resource", name = "gold-ore",
+  { type = "resource", name = "ci-gold-ore",
     icon = "__base__/graphics/icons/stone.png",
     flags = {"placeable-neutral"},
     order="a-b-d",
@@ -717,7 +717,7 @@ data:extend({
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
-      control = "unknown-mineral",
+      control = "ci-gold",
       sharpness = 1,
 	  max_probability = 0.04,
       richness_multiplier = 11000,
@@ -804,7 +804,7 @@ data:extend({
     map_color = {r=0.478, g=0.450, b=0.317}
   },
   
-  { type = "resource", name = "silver-ore",
+  { type = "resource", name = "ci-silver-ore",
     icon = "__base__/graphics/icons/stone.png",
     flags = {"placeable-neutral"},
     order="a-b-d",
@@ -819,7 +819,7 @@ data:extend({
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
-      control = "unknown-mineral",
+      control = "ci-silver",
       sharpness = 1,
 	  max_probability = 0.04,
       richness_multiplier = 11000,
@@ -906,7 +906,7 @@ data:extend({
     map_color = {r=0.478, g=0.450, b=0.317}
   },
 
-  { type = "resource", name = "nickel-ore",
+  { type = "resource", name = "ci-nickel-ore",
     icon = "__base__/graphics/icons/stone.png",
     flags = {"placeable-neutral"},
     order="a-b-d",
@@ -921,7 +921,7 @@ data:extend({
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
-      control = "unknown-mineral",
+      control = "ci-nickel",
       sharpness = 1,
       richness_multiplier = 10000,
       richness_base = 100,
@@ -993,7 +993,7 @@ data:extend({
     map_color = {r=0.478, g=0.450, b=0.317}
   },
   
-  { type = "resource", name = "zinc-ore",
+  { type = "resource", name = "ci-zinc-ore",
     icon = "__base__/graphics/icons/stone.png",
     flags = {"placeable-neutral"},
     order="a-b-d",
@@ -1008,7 +1008,7 @@ data:extend({
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
-      control = "unknown-mineral",
+      control = "ci-zinc",
       sharpness = 1,
       richness_multiplier = 10000,
       richness_base = 100,
@@ -1080,7 +1080,7 @@ data:extend({
     map_color = {r=0.478, g=0.450, b=0.317}
   },
   
-  { type = "resource", name = "salt",
+  { type = "resource", name = "ci-salt",
     icon = "__base__/graphics/icons/stone.png",
     flags = {"placeable-neutral"},
     order="a-b-d",
@@ -1095,7 +1095,7 @@ data:extend({
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
-      control = "unknown-mineral",
+      control = "ci-salt",
       sharpness = 1,
 	  max_probability = 0.3,
       richness_multiplier = 11000,
@@ -1168,7 +1168,7 @@ data:extend({
     map_color = {r=0.478, g=0.450, b=0.317}
   },
   
-  { type = "resource", name = "titanium-ore",
+  { type = "resource", name = "ci-titanium-ore",
     icon = "__base__/graphics/icons/stone.png",
     flags = {"placeable-neutral"},
     order="a-b-d",
@@ -1183,7 +1183,7 @@ data:extend({
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
 	{
-    control = "unknown-mineral",
+    control = "ci-titanium",
       sharpness = 1,
       richness_multiplier = 15000,
       richness_base = 250,
@@ -1269,7 +1269,7 @@ data:extend({
     map_color = {r=1, g=1, b=1}
   },
   
-  { type = "resource", name = "tungsten-ore",
+  { type = "resource", name = "ci-tungsten-ore",
     icon = "__base__/graphics/icons/stone.png",
     flags = {"placeable-neutral"},
     order="a-b-d",
@@ -1284,7 +1284,7 @@ data:extend({
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
 	{
-    control = "unknown-mineral",
+    control = "ci-tungsten",
       sharpness = 1,
       richness_multiplier = 10000,
       richness_base = 100,
@@ -1370,7 +1370,7 @@ data:extend({
     map_color = {r=0, g=0, b=0}
   },
   
-  { type = "resource", name = "limestone",
+  { type = "resource", name = "ci-limestone",
     icon = "__base__/graphics/icons/stone.png",
     flags = {"placeable-neutral"},
     order="a-b-a",
@@ -1385,7 +1385,7 @@ data:extend({
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
-      control = "unknown-mineral",
+      control = "ci-limestone",
       sharpness = 1,
       richness_multiplier = 15000,
       richness_base = 500,
@@ -1468,5 +1468,4 @@ data:extend({
     },
     map_color = {r=0.478, g=0.450, b=0.317}
   },
-  }
-)
+})

@@ -3,6 +3,11 @@ data.raw["autoplace-control"]["copper-ore"] = nil
 data.raw["autoplace-control"]["coal"] = nil
 data.raw["autoplace-control"]["stone"] = nil
 
+data.raw["resource"]["iron-ore"] = nil
+data.raw["resource"]["copper-ore"] = nil
+data.raw["resource"]["coal"] = nil
+data.raw["resource"]["stone"] = nil
+
 data.raw["technology"]["steel-processing"].prerequisites = {"basic-metal-casting"}
 data.raw["technology"]["automation"].prerequisites = {"ci-electronics"}
 data.raw["technology"]["automation"].effects = {{type = "unlock-recipe",recipe = "assembling-machine-1"},{type = "unlock-recipe",recipe = "long-handed-inserter"},{type = "unlock-recipe",recipe = "simple-basic-machine-part"}}

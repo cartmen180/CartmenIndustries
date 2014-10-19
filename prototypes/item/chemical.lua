@@ -29,4 +29,9 @@ data:extend({
 	stack_size = 200,
   },
   
+  {type = "item", name = "rubber",
+	icon = "__CartmenIndustries__/graphics/icons/rubber.png",
+	flags = { "goes-to-main-inventory" },
+	stack_size = 200,
+  },
 })

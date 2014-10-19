@@ -324,7 +324,7 @@ data:extend({
       single =
       {
         {
-          filename = "__CartmenIndustries__/graphics/entity/cement-wall/wall-single.png",
+          filename = "__CartmenIndustries__/graphics/entity/reinforced-concrete-wall/wall-single.png",
           priority = "extra-high",
           width = 33,
           height = 58,
@@ -334,14 +334,14 @@ data:extend({
       straight_vertical =
       {
         {
-          filename = "__CartmenIndustries__/graphics/entity/cement-wall/wall-straight-vertical-1.png",
+          filename = "__CartmenIndustries__/graphics/entity/reinforced-concrete-wall/wall-straight-vertical-1.png",
           priority = "extra-high",
           width = 51,
           height = 32,
           shift = {0.296875, 0}
         },
         {
-          filename = "__CartmenIndustries__/graphics/entity/cement-wall/wall-straight-vertical-2.png",
+          filename = "__CartmenIndustries__/graphics/entity/reinforced-concrete-wall/wall-straight-vertical-2.png",
           priority = "extra-high",
           width = 51,
           height = 32,
@@ -351,7 +351,7 @@ data:extend({
       straight_vertical_under_ending =
       {
         {
-          filename = "__CartmenIndustries__/graphics/entity/cement-wall/wall-straight-vertical-under-ending.png",
+          filename = "__CartmenIndustries__/graphics/entity/reinforced-concrete-wall/wall-straight-vertical-under-ending.png",
           priority = "extra-high",
           width = 51,
           height = 32,
@@ -361,21 +361,21 @@ data:extend({
       straight_horizontal =
       {
         {
-          filename = "__CartmenIndustries__/graphics/entity/cement-wall/wall-straight-horizontal-1.png",
+          filename = "__CartmenIndustries__/graphics/entity/reinforced-concrete-wall/wall-straight-horizontal-1.png",
           priority = "extra-high",
           width = 32,
           height = 57,
           shift = {0, 0.078125}
         },
         {
-          filename = "__CartmenIndustries__/graphics/entity/cement-wall/wall-straight-horizontal-2.png",
+          filename = "__CartmenIndustries__/graphics/entity/reinforced-concrete-wall/wall-straight-horizontal-2.png",
           priority = "extra-high",
           width = 32,
           height = 57,
           shift = {0, 0.078125}
         },
         {
-          filename = "__CartmenIndustries__/graphics/entity/cement-wall/wall-straight-horizontal-3.png",
+          filename = "__CartmenIndustries__/graphics/entity/reinforced-concrete-wall/wall-straight-horizontal-3.png",
           priority = "extra-high",
           width = 32,
           height = 55,
@@ -385,7 +385,7 @@ data:extend({
       corner_right_up =
       {
         {
-          filename = "__CartmenIndustries__/graphics/entity/cement-wall/wall-corner-right-up.png",
+          filename = "__CartmenIndustries__/graphics/entity/reinforced-concrete-wall/wall-corner-right-up.png",
           priority = "extra-high",
           width = 32,
           height = 53,
@@ -395,7 +395,7 @@ data:extend({
       corner_right_down =
       {
         {
-          filename = "__CartmenIndustries__/graphics/entity/cement-wall/wall-corner-right-down.png",
+          filename = "__CartmenIndustries__/graphics/entity/reinforced-concrete-wall/wall-corner-right-down.png",
           priority = "extra-high",
           width = 32,
           height = 42,
@@ -405,7 +405,7 @@ data:extend({
       corner_left_down =
       {
         {
-          filename = "__CartmenIndustries__/graphics/entity/cement-wall/wall-corner-left-down.png",
+          filename = "__CartmenIndustries__/graphics/entity/reinforced-concrete-wall/wall-corner-left-down.png",
           priority = "extra-high",
           width = 46,
           height = 42,
@@ -415,7 +415,7 @@ data:extend({
       corner_left_up =
       {
         {
-          filename = "__CartmenIndustries__/graphics/entity/cement-wall/wall-corner-left-up.png",
+          filename = "__CartmenIndustries__/graphics/entity/reinforced-concrete-wall/wall-corner-left-up.png",
           priority = "extra-high",
           width = 51,
           height = 58,
@@ -425,7 +425,7 @@ data:extend({
       t_up =
       {
         {
-          filename = "__CartmenIndustries__/graphics/entity/cement-wall/wall-t-up.png",
+          filename = "__CartmenIndustries__/graphics/entity/reinforced-concrete-wall/wall-t-up.png",
           priority = "extra-high",
           width = 32,
           height = 44,
@@ -435,7 +435,7 @@ data:extend({
       t_down =
       {
         {
-          filename = "__CartmenIndustries__/graphics/entity/cement-wall/wall-t-down.png",
+          filename = "__CartmenIndustries__/graphics/entity/reinforced-concrete-wall/wall-t-down.png",
           priority = "extra-high",
           width = 32,
           height = 53,
@@ -445,7 +445,7 @@ data:extend({
       t_right =
       {
         {
-          filename = "__CartmenIndustries__/graphics/entity/cement-wall/wall-t-right.png",
+          filename = "__CartmenIndustries__/graphics/entity/reinforced-concrete-wall/wall-t-right.png",
           priority = "extra-high",
           width = 51,
           height = 38,
@@ -455,7 +455,7 @@ data:extend({
       t_left =
       {
         {
-          filename = "__CartmenIndustries__/graphics/entity/cement-wall/wall-t-left.png",
+          filename = "__CartmenIndustries__/graphics/entity/reinforced-concrete-wall/wall-t-left.png",
           priority = "extra-high",
           width = 32,
           height = 38,
@@ -465,7 +465,7 @@ data:extend({
       cross =
       {
         {
-          filename = "__CartmenIndustries__/graphics/entity/cement-wall/wall-cross.png",
+          filename = "__CartmenIndustries__/graphics/entity/reinforced-concrete-wall/wall-cross.png",
           priority = "extra-high",
           width = 32,
           height = 38,
@@ -475,7 +475,7 @@ data:extend({
       ending_up =
       {
         {
-          filename = "__CartmenIndustries__/graphics/entity/cement-wall/wall-ending-up.png",
+          filename = "__CartmenIndustries__/graphics/entity/reinforced-concrete-wall/wall-ending-up.png",
           priority = "extra-high",
           width = 64,
           height = 47,
@@ -485,7 +485,7 @@ data:extend({
       ending_down =
       {
         {
-          filename = "__CartmenIndustries__/graphics/entity/cement-wall/wall-ending-down.png",
+          filename = "__CartmenIndustries__/graphics/entity/reinforced-concrete-wall/wall-ending-down.png",
           priority = "extra-high",
           width = 51,
           height = 36,
@@ -495,7 +495,7 @@ data:extend({
       ending_right =
       {
         {
-          filename = "__CartmenIndustries__/graphics/entity/cement-wall/wall-ending-right.png",
+          filename = "__CartmenIndustries__/graphics/entity/reinforced-concrete-wall/wall-ending-right.png",
           priority = "extra-high",
           width = 32,
           height = 58,
@@ -505,7 +505,7 @@ data:extend({
       ending_left =
       {
         {
-          filename = "__CartmenIndustries__/graphics/entity/cement-wall/wall-ending-left.png",
+          filename = "__CartmenIndustries__/graphics/entity/reinforced-concrete-wall/wall-ending-left.png",
           priority = "extra-high",
           width = 44,
           height = 57,

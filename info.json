@@ -1,10 +1,10 @@
 {
   "name": "CartmenIndustries",
-  "version": "0.5.0",
+  "version": "0.5.4",
   "title": "Cartmen's Industrial Mod",
   "author": "Cartmen180",
   "contact": "cartmen180@gmail.com",
   "homepage": "",
   "description": "Adds new ores and changes recipes. Create a whole new production line for your raw materials and intermediates.",
-  "dependencies": ["base >= 0.10.0","? bobplates >= 0.6.1","? DyTech >= 2.0.0","BaseMod => 0.0.1"]
+  "dependencies": ["base >= 0.10.0","CartmenNaturalGas => 1.1.1","? bobplates >= 0.6.1","? DyTech >= 2.0.0"]
 }
