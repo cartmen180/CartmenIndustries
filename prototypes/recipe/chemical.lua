@@ -130,7 +130,7 @@ data:extend({
     {
       {type="item", name="rubber", amount=2}
     },
-    icon = "__CartmenIndustries__/graphics/icons/rubber.png",
+    icon = "__CartmenIndustries__/graphics/icons/synthetic-rubber.png",
     subgroup = "ci-chemicals",
     order = "d"
   },
