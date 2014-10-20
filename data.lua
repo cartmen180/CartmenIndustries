@@ -46,20 +46,6 @@ else
 	  data.raw["recipe"]["oil-refinery"].ingredients = {{type="item",name="pipe",amount=10},{type="item",name="basic-machine-part",amount=10},{type="item",name="steel-plate",amount=15}}
 	end
 
-	if EnableCircuitOverhaul == true then
-	  require("prototypes.item.electronics")
-	  require("prototypes.recipe.electronics")
-	  require("prototypes.recipe.silicon")
-	  require("prototypes.item.silicon")
-	  
-	  data.raw["recipe"]["electronic-circuit"].energy_required = 2.0
-	  data.raw["recipe"]["electronic-circuit"].ingredients = {{type="item",name="standard-circuit-board",amount=1},{type="item",name="transistor",amount=6},{type="item",name="resistor",amount=4},{type="item",name="solder",amount=2}}
-	  data.raw["recipe"]["advanced-circuit"].ingredients = {{type="item",name="standard-circuit-board",amount=1},{type="item",name="integrated-circuit",amount=3},{type="item",name="electronic-circuit",amount=2},{type="item",name="solder",amount=2}}
-	  data.raw["recipe"]["processing-unit"].ingredients = {{type="item",name="standard-circuit-board",amount=1},{type="item",name="integrated-circuit",amount=15},{type="item",name="processing-core",amount=1}}
-	  
-	  data.raw["technology"]["advanced-electronics"].prerequisites = {"electronics","ci-electronics-3"}
-	end
-
 	if EnableInserterChanges == true then
 	  data.raw["recipe"]["basic-inserter"].ingredients = {{type="item",name="inserter-base",amount=1},{type="item",name="inserter-arm",amount=1},{type="item",name="iron-gear-wheel",amount=1},{type="item",name="electronic-circuit",amount=1}}
 	  data.raw["recipe"]["basic-inserter"].category = "advanced-crafting"
