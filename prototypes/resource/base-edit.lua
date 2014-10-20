@@ -34,4 +34,3 @@ data.raw["mining-drill"]["burner-mining-drill"].fast_replaceable_group = "s-mini
 table.insert(data.raw["technology"]["advanced-material-processing-2"].effects,{type="unlock-recipe",recipe="small-blast-furnace-2"})
 table.insert(data.raw["technology"]["advanced-material-processing-2"].effects,{type="unlock-recipe",recipe="casting-facility-2"})
 
-data.raw["recipe"]["heavy-oil-cracking"].results = {{type="fluid", name="light-oil", amount=3},{type="fluid", name="propene", amount=1}}

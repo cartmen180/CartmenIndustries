@@ -20,13 +20,6 @@ data:extend({
 	stack_size = 200,
   },
   
-  {type = "item", name = "silicon-plate",
-	icon = "__CartmenIndustries__/graphics/icons/silicon-plate.png",
-	flags = { "goes-to-main-inventory" },
-	order = "a-p[silicon]",
-	stack_size = 200,
-  },
-  
   {type = "item", name = "zinc-plate",
 	icon = "__CartmenIndustries__/graphics/icons/zinc-plate.png",
 	flags = { "goes-to-main-inventory" },

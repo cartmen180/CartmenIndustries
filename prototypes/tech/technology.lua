@@ -262,7 +262,7 @@ data:extend({
   },
   
   { type = "technology", name = "steel-casting",
-	prerequisites = {"steel-processing","iron-casting-2","ci-electronics-2"},
+	prerequisites = {"steel-processing","iron-casting-2","electronics"},
 	icon = "__base__/graphics/icons/steel-plate.png",
 	effects = 
 	{
@@ -299,60 +299,7 @@ data:extend({
 	}
   },
   
-  { type = "technology", name = "ci-electronics",
-	prerequisites = {"tin-lead-smelting"},
-	icon = "__CartmenIndustries__/graphics/icons/crude-circuit.png",
-	effects = 
-	{
-	  {type="unlock-recipe",recipe="crude-circuit"},
-	  {type="unlock-recipe",recipe="crude-solder"},
-	  {type="unlock-recipe",recipe="crude-transistor"},
-	  {type="unlock-recipe",recipe="crude-circuit-board"},
-	  {type="unlock-recipe",recipe="simple-machine-part"}
-	},
-	unit =
-	{
-	  count = 10,
-	  ingredients = {{"lead-ore",1},{"tin-ore",1},{"iron-ore",1},{"copper-ore",1}},
-	  time = 15
-	}
-  },
-  { type = "technology", name = "ci-electronics-2",
-	icon = "__base__/graphics/icons/electronic-circuit.png",
-	prerequisites = {"ci-electronics"},
-	effects = 
-	{
-	  {type="unlock-recipe",recipe="silicon-processing"},
-	  {type="unlock-recipe",recipe="silicon-casting"},
-	  {type="unlock-recipe",recipe="transistor"},
-	  {type="unlock-recipe",recipe="resistor"},
-	  {type="unlock-recipe",recipe="standard-circuit-board"}	  
-	},
-	unit =
-	{
-	  count = 25,
-	  ingredients = {{"stone",2},{"science-pack-1",1}},
-	  time = 30
-	}
-  },
-  { type = "technology", name = "ci-electronics-3",
-	icon = "__base__/graphics/icons/advanced-circuit.png",
-	prerequisites = {"ci-electronics-2","ci-chemistry-4"},
-	effects = 
-	{
-	  {type="unlock-recipe",recipe="silicon-boule"},
-	  {type="unlock-recipe",recipe="silicon-wafer"},
-	  {type="unlock-recipe",recipe="integrated-circuit"},
-	  {type="unlock-recipe",recipe="photoresist"},
-	  {type="unlock-recipe",recipe="processing-core"}
-	},
-	unit =
-	{
-	  count = 40,
-	  ingredients = {{"science-pack-1",2},{"science-pack-2",3}},
-	  time = 75
-	}
-  },
+  
 
   { type = "technology", name = "zinc-refining",
 	prerequisites = {"copper-flotation"},
@@ -421,7 +368,7 @@ data:extend({
   
   { type = "technology", name = "ci-chemistry-2",
 	prerequisites = {"ci-chemistry"},
-	icon = "__CartmenIndustries__/graphics/icons/fluids/bisphenol.png",
+	icon = "__CartmenElectronics__/graphics/icons/fluid/bisphenol.png",
 	effects = 
 	{
 	  {type="unlock-recipe",recipe="hypochlorous-acid-processing"},
@@ -436,7 +383,7 @@ data:extend({
   },
   { type = "technology", name = "ci-chemistry-3",
 	prerequisites = {"ci-chemistry-2"},
-	icon = "__CartmenIndustries__/graphics/icons/fluids/bisphenol.png",
+	icon = "__CartmenElectronics__/graphics/icons/fluid/bisphenol.png",
 	effects = 
 	{
 	  {type="unlock-recipe",recipe="bisphenol-processing"},
@@ -451,7 +398,7 @@ data:extend({
   },
   { type = "technology", name = "ci-chemistry-4",
 	prerequisites = {"ci-chemistry-3","advanced-oil-processing","gas-processing"},
-	icon = "__CartmenIndustries__/graphics/icons/fluids/bisphenol.png",
+	icon = "__CartmenElectronics__/graphics/icons/fluid/bisphenol.png",
 	effects = 
 	{
 	  {type="unlock-recipe",recipe="propene-processing"},

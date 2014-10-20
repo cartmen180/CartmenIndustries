@@ -75,20 +75,7 @@ data:extend({
 	pressure_to_speed_ratio = 0.4,
 	flow_to_energy_ratio = 0.59,
   },
-
-  { type = "fluid", name = "liquid-silicon",
-    default_temperature = 1200,
-	max_temperature = 1200,
-	heat_capacity = "0KJ",
-	base_color = {r=83, g=83, b=84},
-    flow_color = {r=83, g=83, b=84},
-	icon = "__CartmenIndustries__/graphics/icons/fluids/liquid-silicon.png",
-	subgroup = "ci-chemicals",
-	order = "b",
-	pressure_to_speed_ratio = 0.4,
-	flow_to_energy_ratio = 0.59,
-  },
-  
+ 
   { type = "fluid", name = "titanium-tetrachloride",
     default_temperature = 900,
 	max_temperature = 900,
