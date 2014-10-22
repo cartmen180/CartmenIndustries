@@ -262,7 +262,7 @@ data:extend({
   },
   
   { type = "technology", name = "steel-casting",
-	prerequisites = {"steel-processing","iron-casting-2","electronics"},
+	prerequisites = {"steel-processing","iron-casting-2","electronics","nickel-refining"},
 	icon = "__base__/graphics/icons/steel-plate.png",
 	effects = 
 	{

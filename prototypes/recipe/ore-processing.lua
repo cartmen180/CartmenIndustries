@@ -57,7 +57,7 @@ data:extend({
 	category = "blast-furnace",
 	enabled = false,
 	energy_required = 15,
-	ingredients = {{type="fluid",name="liquid-iron",amount=50},{"coke",1},{"nickel-ore",1}},
+	ingredients = {{type="fluid",name="liquid-iron",amount=50},{"coke",1},{"nickel-powder",1}},
 	results = {{type="fluid",name="liquid-steel",amount=50}},
 	subgroup = "ci-iron",
 	order = "d",
