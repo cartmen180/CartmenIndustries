@@ -45,15 +45,57 @@ data:extend({
     fast_replaceable_group = "blast-furnace",
     animation =
     {
-      filename = "__CartmenIndustries__/graphics/entity/simple-blast-furnace/b-furnace-anim-s.png",
-      priority = "high",
+	  north = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/simple-blast-furnace/b_furnace_small_off.png",
       frame_width = 120,
       frame_height = 120,
-      frame_count = 10,
-      line_length = 10,
+      frame_count = 1,
       shift = {0.4, -0.06},
-	  animation_speed = 0.3,
+	  },
+	  west = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/simple-blast-furnace/b_furnace_small_off.png",
+      frame_width = 120,
+      frame_height = 120,
+      frame_count = 1,
+      shift = {0.4, -0.06},
+	  },
+	  south = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/simple-blast-furnace/b_furnace_small_off.png",
+      frame_width = 120,
+      frame_height = 120,
+      frame_count = 1,
+      shift = {0.4, -0.06},
+	  },
+	  east = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/simple-blast-furnace/b_furnace_small_off.png",
+      frame_width = 120,
+      frame_height = 120,
+      frame_count = 1,
+      shift = {0.4, -0.06},
+	  },
     },
+	working_visualisations =
+	{
+	  {
+        north_position = {0.4,-0.06},
+        west_position = {0.4,-0.06},
+        south_position = {0.4,-0.06},
+        east_position = {0.4,-0.06},
+        animation =
+		{
+			filename = "__CartmenIndustries__/graphics/entity/simple-blast-furnace/b-furnace-anim-s.png",
+				priority = "high",
+				frame_count = 10,
+				frame_width = 120,
+				frame_height = 120,
+				animation_speed = 0.2
+		}
+	  },
+	},
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
@@ -138,15 +180,57 @@ data:extend({
     fast_replaceable_group = "blast-furnace",
     animation =
     {
-      filename = "__CartmenIndustries__/graphics/entity/e-simple-blast-furnace/e-b-furnace-anim-s.png",
-      priority = "high",
+	  north = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/e-simple-blast-furnace/e_b_furnace_small_off.png",
       frame_width = 120,
       frame_height = 120,
-      frame_count = 10,
-      line_length = 10,
+      frame_count = 1,
       shift = {0.4, -0.06},
-	  animation_speed = 0.3,
+	  },
+	  west = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/e-simple-blast-furnace/e_b_furnace_small_off.png",
+      frame_width = 120,
+      frame_height = 120,
+      frame_count = 1,
+      shift = {0.4, -0.06},
+	  },
+	  south = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/e-simple-blast-furnace/e_b_furnace_small_off.png",
+      frame_width = 120,
+      frame_height = 120,
+      frame_count = 1,
+      shift = {0.4, -0.06},
+	  },
+	  east = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/e-simple-blast-furnace/e_b_furnace_small_off.png",
+      frame_width = 120,
+      frame_height = 120,
+      frame_count = 1,
+      shift = {0.4, -0.06},
+	  },
     },
+	working_visualisations =
+	{
+	  {
+        north_position = {0.4,-0.06},
+        west_position = {0.4,-0.06},
+        south_position = {0.4,-0.06},
+        east_position = {0.4,-0.06},
+        animation =
+		{
+			filename = "__CartmenIndustries__/graphics/entity/e-simple-blast-furnace/e-b-furnace-anim-s.png",
+				priority = "high",
+				frame_count = 10,
+				frame_width = 120,
+				frame_height = 120,
+				animation_speed = 0.2
+		}
+	  },
+	},
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
@@ -209,16 +293,57 @@ data:extend({
 	fast_replaceable_group = "casting",
     animation =
     {
-      filename = "__CartmenIndustries__/graphics/entity/cooler/cooler_anim_e.png",
-      priority = "high",
+	  north = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/cooler/cooler_off.png",
       frame_width = 120,
       frame_height = 120,
-      frame_count = 10,
-      line_length = 10,
+      frame_count = 1,
       shift = {0.4, -0.06},
-	  animation_speed = 1,
-	  run_mode = "forward",
+	  },
+	  west = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/cooler/cooler_off.png",
+      frame_width = 120,
+      frame_height = 120,
+      frame_count = 1,
+      shift = {0.4, -0.06},
+	  },
+	  south = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/cooler/cooler_off.png",
+      frame_width = 120,
+      frame_height = 120,
+      frame_count = 1,
+      shift = {0.4, -0.06},
+	  },
+	  east = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/cooler/cooler_off.png",
+      frame_width = 120,
+      frame_height = 120,
+      frame_count = 1,
+      shift = {0.4, -0.06},
+	  },
     },
+	working_visualisations =
+	{
+	  {
+        north_position = {0.4,-0.06},
+        west_position = {0.4,-0.06},
+        south_position = {0.4,-0.06},
+        east_position = {0.4,-0.06},
+        animation =
+		{
+			filename = "__CartmenIndustries__/graphics/entity/cooler/cooler_anim_e.png",
+				priority = "high",
+				frame_count = 10,
+				frame_width = 120,
+				frame_height = 120,
+				animation_speed = 0.3
+		}
+	  },
+	},
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
@@ -278,18 +403,59 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 	fast_replaceable_group = "casting",
-    animation =
+	animation =
     {
-      filename = "__CartmenIndustries__/graphics/entity/cooler-2/cooler_anim_e.png",
-      priority = "high",
+	  north = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/cooler-2/cooler_off.png",
       frame_width = 120,
       frame_height = 120,
-      frame_count = 10,
-      line_length = 10,
+      frame_count = 1,
       shift = {0.4, -0.06},
-	  animation_speed = 1,
-	  run_mode = "forward",
+	  },
+	  west = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/cooler-2/cooler_off.png",
+      frame_width = 120,
+      frame_height = 120,
+      frame_count = 1,
+      shift = {0.4, -0.06},
+	  },
+	  south = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/cooler-2/cooler_off.png",
+      frame_width = 120,
+      frame_height = 120,
+      frame_count = 1,
+      shift = {0.4, -0.06},
+	  },
+	  east = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/cooler-2/cooler_off.png",
+      frame_width = 120,
+      frame_height = 120,
+      frame_count = 1,
+      shift = {0.4, -0.06},
+	  },
     },
+	working_visualisations =
+	{
+	  {
+        north_position = {0.4,-0.06},
+        west_position = {0.4,-0.06},
+        south_position = {0.4,-0.06},
+        east_position = {0.4,-0.06},
+        animation =
+		{
+			filename = "__CartmenIndustries__/graphics/entity/cooler-2/cooler_anim_e.png",
+				priority = "high",
+				frame_count = 10,
+				frame_width = 120,
+				frame_height = 120,
+				animation_speed = 0.3
+		}
+	  },
+	},
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
@@ -340,14 +506,57 @@ data:extend({
     fast_replaceable_group = "assembling-machine",
     animation =
     {
-      filename = "__CartmenIndustries__/graphics/entity/mill/crusher-anim-s.png",
-      priority = "high",
+	  north = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/mill/crusher_off.png",
       frame_width = 120,
       frame_height = 120,
-      frame_count = 12,
-      line_length = 12,
-      shift = {0.4, -0.06}
+      frame_count = 1,
+      shift = {0.4, -0.06},
+	  },
+	  west = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/mill/crusher_off.png",
+      frame_width = 120,
+      frame_height = 120,
+      frame_count = 1,
+      shift = {0.4, -0.06},
+	  },
+	  south = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/mill/crusher_off.png",
+      frame_width = 120,
+      frame_height = 120,
+      frame_count = 1,
+      shift = {0.4, -0.06},
+	  },
+	  east = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/mill/crusher_off.png",
+      frame_width = 120,
+      frame_height = 120,
+      frame_count = 1,
+      shift = {0.4, -0.06},
+	  },
     },
+	working_visualisations =
+	{
+	  {
+        north_position = {0.4,-0.06},
+        west_position = {0.4,-0.06},
+        south_position = {0.4,-0.06},
+        east_position = {0.4,-0.06},
+        animation =
+		{
+			filename = "__CartmenIndustries__/graphics/entity/mill/crusher-anim-s.png",
+				priority = "high",
+				frame_count = 12,
+				frame_width = 120,
+				frame_height = 120,
+				animation_speed = 0.3
+		}
+	  },
+	},
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
@@ -409,14 +618,57 @@ data:extend({
     fast_replaceable_group = "assembling-machine",
     animation =
     {
-      filename = "__CartmenIndustries__/graphics/entity/mill/crusher-anim-s.png",
-      priority = "high",
+	  north = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/mill-2/crusher_off.png",
       frame_width = 120,
       frame_height = 120,
-      frame_count = 12,
-      line_length = 12,
-      shift = {0.4, -0.06}
+      frame_count = 1,
+      shift = {0.4, -0.06},
+	  },
+	  west = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/mill-2/crusher_off.png",
+      frame_width = 120,
+      frame_height = 120,
+      frame_count = 1,
+      shift = {0.4, -0.06},
+	  },
+	  south = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/mill-2/crusher_off.png",
+      frame_width = 120,
+      frame_height = 120,
+      frame_count = 1,
+      shift = {0.4, -0.06},
+	  },
+	  east = 
+	  {
+      filename = "__CartmenIndustries__/graphics/entity/mill-2/crusher_off.png",
+      frame_width = 120,
+      frame_height = 120,
+      frame_count = 1,
+      shift = {0.4, -0.06},
+	  },
     },
+	working_visualisations =
+	{
+	  {
+        north_position = {0.4,-0.06},
+        west_position = {0.4,-0.06},
+        south_position = {0.4,-0.06},
+        east_position = {0.4,-0.06},
+        animation =
+		{
+			filename = "__CartmenIndustries__/graphics/entity/mill-2/crusher-anim-s.png",
+				priority = "high",
+				frame_count = 12,
+				frame_width = 120,
+				frame_height = 120,
+				animation_speed = 0.6
+		}
+	  },
+	},
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =

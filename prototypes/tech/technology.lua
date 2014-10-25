@@ -397,7 +397,7 @@ data:extend({
 	}
   },
   { type = "technology", name = "ci-chemistry-4",
-	prerequisites = {"ci-chemistry-3","advanced-oil-processing","gas-processing"},
+	prerequisites = {"ci-chemistry-3","gas-processing"},
 	icon = "__CartmenElectronics__/graphics/icons/fluid/bisphenol.png",
 	effects = 
 	{
